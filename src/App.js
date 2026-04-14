@@ -1,5 +1,5 @@
 import React from 'react';
-import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, NavLink, Link } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import CV from './Components/CV';
@@ -15,7 +15,7 @@ function App() {
       <div>
         <nav>
           <ul className='nav'>
-          <div className="logo">Efrem</div>
+          <Link to="/" className="logo">Efrem</Link>
             <li>
               <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : undefined)}>Start</NavLink>
             </li>
