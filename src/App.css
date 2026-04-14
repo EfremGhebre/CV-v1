@@ -138,6 +138,7 @@
   font-size:1.5em;
   padding-left:  20px;
   cursor: pointer;
+  float: left; 
  }
  .logo:hover{
   transition: 0.1s;
