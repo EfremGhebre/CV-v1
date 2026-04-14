@@ -15,9 +15,7 @@ function App() {
       <div>
         <nav>
           <ul className='nav'>
-            <li className="logo-item">
-              <NavLink to="/" end className="logo">Efrem</NavLink>
-            </li>
+            <NavLink to="/" end className="logo">Efrem</NavLink>
             <li>
               <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : undefined)}>Start</NavLink>
             </li>
