@@ -1,22 +1,24 @@
 {
   "files": {
-    "main.css": "/CV/static/css/main.944facb3.css",
-    "main.js": "/CV/static/js/main.8a4902e7.js",
-    "static/js/453.a5f36ace.chunk.js": "/CV/static/js/453.a5f36ace.chunk.js",
-    "static/media/mountains.jpg": "/CV/static/media/mountains.9111e458f8d5b7d82511.jpg",
-    "static/media/tree.jpg": "/CV/static/media/tree.e9c569f4f2db700747a6.jpg",
-    "static/media/snow1.jpg": "/CV/static/media/snow1.b534ddd5345a7451b789.jpg",
-    "static/media/sunset.jpg": "/CV/static/media/sunset.5dfe09ad00126f8752f8.jpg",
-    "static/media/grey-sky.jpg": "/CV/static/media/grey-sky.504629d6922bf9168bdd.jpg",
-    "static/media/mypic.png": "/CV/static/media/mypic.7a3ac46061aafc1cc20f.png",
-    "static/media/bg-img.jpg": "/CV/static/media/bg-img.ba5764e0fd53d04427d7.jpg",
-    "index.html": "/CV/index.html",
-    "main.944facb3.css.map": "/CV/static/css/main.944facb3.css.map",
-    "main.8a4902e7.js.map": "/CV/static/js/main.8a4902e7.js.map",
-    "453.a5f36ace.chunk.js.map": "/CV/static/js/453.a5f36ace.chunk.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.944facb3.css",
-    "static/js/main.8a4902e7.js"
-  ]
+    "main.css": "/CV-v1/static/css/main.e6bc4c01.chunk.css",
+    "main.js": "/CV-v1/static/js/main.ca0ef50c.chunk.js",
+    "main.js.map": "/CV-v1/static/js/main.ca0ef50c.chunk.js.map",
+    "runtime~main.js": "/CV-v1/static/js/runtime~main.c62dba33.js",
+    "runtime~main.js.map": "/CV-v1/static/js/runtime~main.c62dba33.js.map",
+    "static/js/2.0574f275.chunk.js": "/CV-v1/static/js/2.0574f275.chunk.js",
+    "static/js/2.0574f275.chunk.js.map": "/CV-v1/static/js/2.0574f275.chunk.js.map",
+    "static/js/3.62d5139d.chunk.js": "/CV-v1/static/js/3.62d5139d.chunk.js",
+    "static/js/3.62d5139d.chunk.js.map": "/CV-v1/static/js/3.62d5139d.chunk.js.map",
+    "index.html": "/CV-v1/index.html",
+    "precache-manifest.16d36d3e90809ea1220a97a819a51406.js": "/CV-v1/precache-manifest.16d36d3e90809ea1220a97a819a51406.js",
+    "service-worker.js": "/CV-v1/service-worker.js",
+    "static/css/main.e6bc4c01.chunk.css.map": "/CV-v1/static/css/main.e6bc4c01.chunk.css.map",
+    "static/media/bg-img.jpg": "/CV-v1/static/media/bg-img.c3fd6947.jpg",
+    "static/media/grey-sky.jpg": "/CV-v1/static/media/grey-sky.b7b20e4f.jpg",
+    "static/media/mountains.jpg": "/CV-v1/static/media/mountains.9386b089.jpg",
+    "static/media/mypic.png": "/CV-v1/static/media/mypic.4eaaabcd.png",
+    "static/media/snow1.jpg": "/CV-v1/static/media/snow1.b5915a1e.jpg",
+    "static/media/sunset.jpg": "/CV-v1/static/media/sunset.6bfcf04c.jpg",
+    "static/media/tree.jpg": "/CV-v1/static/media/tree.f118d04e.jpg"
+  }
 }
