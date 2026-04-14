@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, NavLink} from 'react-router-dom'; // Import Routes
+import { HashRouter as Router, Routes, Route, NavLink } from 'react-router-dom';
 import './App.css';
 import Home from './Components/Home';
 import CV from './Components/CV';
@@ -11,34 +11,34 @@ import Portfolio from './Components/Projects';
 
 function App() {
   return (
-    <Router basename="/">
+    <Router>
       <div>
         <nav>
           <ul className='nav'>
           <div className="logo">Efrem</div>
             <li>
-              <NavLink to="/" activeClassName="active">Start</NavLink>
+              <NavLink to="/" end className={({ isActive }) => (isActive ? 'active' : undefined)}>Start</NavLink>
             </li>
             <li>
-              <NavLink to="/cv" activeClassName="active">CV</NavLink>
+              <NavLink to="/cv" className={({ isActive }) => (isActive ? 'active' : undefined)}>CV</NavLink>
             </li>
             <li>
-              <NavLink to="/about" activeClassName="active">Om mig</NavLink>
+              <NavLink to="/about" className={({ isActive }) => (isActive ? 'active' : undefined)}>Om mig</NavLink>
             </li>
             <li>
-              <NavLink to="/kontakt" activeClassName="active">Kontakt</NavLink>
+              <NavLink to="/kontakt" className={({ isActive }) => (isActive ? 'active' : undefined)}>Kontakt</NavLink>
             </li>
             <li>
-              <NavLink to="/projects" activeClassName="active">Projekt</NavLink>
+              <NavLink to="/projects" className={({ isActive }) => (isActive ? 'active' : undefined)}>Projekt</NavLink>
             </li>
             <li>
-              <NavLink to="/litemer" activeClassName="active">Lite mer</NavLink>
+              <NavLink to="/litemer" className={({ isActive }) => (isActive ? 'active' : undefined)}>Lite mer</NavLink>
             </li>
           </ul>
         </nav>
 
         <Routes>
-          <Route path="/" exact element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/cv" element={<CV />} />
           <Route path="/about" element={<AboutMe />} />
           <Route path="/kontakt" element={<Kontakt />} />
